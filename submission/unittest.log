@@ -1,0 +1,54 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261026141825
+Username: LAPTOP-7T3S7834\User
+RunAs User: LAPTOP-7T3S7834\User
+Configuration Name: 
+Machine: LAPTOP-7T3S7834 (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\User\Downloads\calculator_Batoul_Hachem\submission\capture-evidence.ps1 -Evidence unittest
+Process ID: 2352
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+LAB 6 - AUTOMATIC BUILD | Batoul Hachem
+Project: C:\Users\User\Downloads\calculator_Batoul_Hachem
+
+PS> python -m unittest discover -s tests/unittest/calculator_Batoul_Hachem -v
+test_add (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_add_negative (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_divide (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_divide_by_zero (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_divide_fraction (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_modulus (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_modulus_by_zero (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_modulus_exact_multiple (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_modulus_negative (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_multiply (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_multiply_by_zero (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_power (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_power_negative_base (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_power_negative_exponent (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_power_zero_exponent (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_square_root (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_square_root_negative (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_square_root_nonperfect_square (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_square_root_zero (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_subtract (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+test_subtract_negative_result (test_calculator_Batoul_Hachem.TestCalculator) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.005s
+
+OK
+
+PS>
+**********************
+Windows PowerShell transcript end
+End time: 20261026141825
+**********************

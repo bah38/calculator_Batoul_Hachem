@@ -1,0 +1,62 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261026142009
+Username: LAPTOP-7T3S7834\User
+RunAs User: LAPTOP-7T3S7834\User
+Configuration Name: 
+Machine: LAPTOP-7T3S7834 (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\User\Downloads\calculator_Batoul_Hachem\submission\capture-evidence.ps1 -Evidence make
+Process ID: 24920
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+LAB 6 - AUTOMATIC BUILD | Batoul Hachem
+Project: C:\Users\User\Downloads\calculator_Batoul_Hachem
+
+PS> make build
+pyb publish
+PyBuilder version 0.13.24
+Build started at 2026-10-26 14:20:09
+------------------------------------------------------------
+[INFO]  Building calculator_Batoul_Hachem version 0.1
+[INFO]  Executing build in c:\users\user\downloads\calculator_batoul_hachem
+[INFO]  Going to execute task publish
+[INFO]  Processing plugin packages 'build>=1.3.0' to be installed with {}
+[INFO]  Processing plugin packages 'pypandoc~=1.4' to be installed with {'upgrade': True}
+[INFO]  Processing plugin packages 'setuptools>=76.0' to be installed with {}
+[INFO]  Processing plugin packages 'twine>=1.15.0' to be installed with {'upgrade': True}
+[INFO]  Processing plugin packages 'unittest-xml-reporting>=3.0.4' to be installed with {'upgrade': True}
+[INFO]  Creating target 'build' VEnv in 'c:\users\user\downloads\calculator_batoul_hachem\target\venv\build\cpython-3.13.2.final.0'
+[INFO]  Creating target 'test' VEnv in 'c:\users\user\downloads\calculator_batoul_hachem\target\venv\test\cpython-3.13.2.final.0'
+[INFO]  Running unit tests
+[INFO]  Executing unit tests from Python modules in c:\users\user\downloads\calculator_batoul_hachem\tests\unittest\calculator_batoul_hachem
+[INFO]  Executed 21 unit tests
+[INFO]  All unit tests passed.
+[INFO]  Building distribution in c:\users\user\downloads\calculator_batoul_hachem\target\dist\calculator_batoul_hachem-0.1
+[INFO]  Copying scripts to c:\users\user\downloads\calculator_batoul_hachem\target\dist\calculator_batoul_hachem-0.1\scripts
+[INFO]  Writing setup.py as c:\users\user\downloads\calculator_batoul_hachem\target\dist\calculator_batoul_hachem-0.1\setup.py
+[INFO]  Building binary distribution in c:\users\user\downloads\calculator_batoul_hachem\target\dist\calculator_batoul_hachem-0.1
+[INFO]  Running Twine check for generated artifacts
+------------------------------------------------------------
+BUILD SUCCESSFUL
+------------------------------------------------------------
+Build Summary
+             Project: calculator_Batoul_Hachem
+             Version: 0.1
+      Base directory: c:\users\user\downloads\calculator_batoul_hachem
+        Environments:
+               Tasks: prepare [7405 ms] compile_sources [0 ms] run_unit_tests [323 ms] package [6 ms] run_integration_tests [0 ms] verify [0 ms] publish [9910 ms]
+Build finished at 2026-10-26 14:20:29
+Build took 19 seconds (19613 ms)
+
+PS>
+**********************
+Windows PowerShell transcript end
+End time: 20261026142029
+**********************

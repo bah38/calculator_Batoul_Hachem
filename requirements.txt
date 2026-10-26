@@ -1,0 +1,2 @@
+# Build tooling only; the calculator uses the Python standard library.
+pybuilder==0.13.24

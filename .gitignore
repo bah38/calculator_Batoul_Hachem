@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pybuilder/
+.build-cache/
+target/
+*.egg-info/
+submission/*.zip
+submission/*.done
+~$*

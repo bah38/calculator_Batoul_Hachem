@@ -43,4 +43,8 @@ GNU Make is needed for these commands:
 | `make build` | Test and package the calculator. |
 | `make all` | Clean, install, test, and build. |
 
-The report and screenshots are submitted separately.
+## Report and screenshots
+
+- [Lab report](submission/Lab6_Report_Batoul_Hachem.pdf)
+- [All screenshots in one PDF](screenshots/screenshots.pdf)
+- [Screenshot images](screenshots/)

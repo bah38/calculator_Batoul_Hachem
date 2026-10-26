@@ -4,6 +4,6 @@ __pycache__/
 .build-cache/
 target/
 *.egg-info/
-submission/
-screenshots/
+submission/*
+!submission/Lab6_Report_Batoul_Hachem.pdf
 ~$*

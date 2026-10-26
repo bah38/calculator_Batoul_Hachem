@@ -4,6 +4,6 @@ __pycache__/
 .build-cache/
 target/
 *.egg-info/
-submission/*.zip
-submission/*.done
+submission/
+screenshots/
 ~$*
